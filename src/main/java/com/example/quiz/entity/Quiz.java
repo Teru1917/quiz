@@ -16,7 +16,7 @@ public class Quiz {
 	//クイズの内容
 	private String question;
 	//クイズの解答
-	private boolean answer;
+	private Boolean answer;
 	//作成者
 	private String author;
 }
