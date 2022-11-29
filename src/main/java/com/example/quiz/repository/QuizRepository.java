@@ -7,6 +7,6 @@ import com.example.quiz.entity.Quiz;
 
 public interface QuizRepository extends CrudRepository<Quiz, Integer> {
 	
-	@Query("SEELCT id FROM quiz ORDER BY RANDOM() limit 1")
+	@Query("select id from quiz order by random() limit 1;")
 	Integer getRandomId();
 }
